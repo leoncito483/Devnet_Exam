@@ -1,0 +1,548 @@
+2026-02-21 21:27:29,414 p=9488 u=erick n=ansible | ERROR! The requirements file '/home/erick/labs/devnet-src/ansible/requirements.yml' does not exist.
+2026-02-21 21:28:21,166 p=9509 u=erick n=ansible | Starting galaxy collection install process
+2026-02-21 21:28:21,402 p=9509 u=erick n=ansible | Nothing to do. All requested collections are already installed. If you want to reinstall them, consider using `--force`.
+2026-02-21 21:28:30,431 p=9513 u=erick n=ansible | # /home/erick/.ansible/collections/ansible_collections
+Collection                               Version
+---------------------------------------- -------
+
+2026-02-21 21:28:30,431 p=9513 u=erick n=ansible | ansible.netcommon                        8.4.0  
+2026-02-21 21:28:30,431 p=9513 u=erick n=ansible | ansible.utils                            6.0.1  
+2026-02-21 21:28:30,431 p=9513 u=erick n=ansible | cisco.ios                                11.3.0 
+2026-02-21 21:28:30,431 p=9513 u=erick n=ansible | # /usr/lib/python3/dist-packages/ansible_collections
+Collection                               Version
+---------------------------------------- -------
+
+2026-02-21 21:28:30,432 p=9513 u=erick n=ansible | amazon.aws                               7.2.0  
+2026-02-21 21:28:30,432 p=9513 u=erick n=ansible | ansible.netcommon                        5.3.0  
+2026-02-21 21:28:30,432 p=9513 u=erick n=ansible | ansible.posix                            1.5.4  
+2026-02-21 21:28:30,432 p=9513 u=erick n=ansible | ansible.utils                            2.12.0 
+2026-02-21 21:28:30,432 p=9513 u=erick n=ansible | ansible.windows                          2.2.0  
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | arista.eos                               6.2.2  
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | awx.awx                                  23.6.0 
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | azure.azcollection                       1.19.0 
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | check_point.mgmt                         5.2.2  
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | chocolatey.chocolatey                    1.5.1  
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | cisco.aci                                2.8.0  
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | cisco.asa                                4.0.3  
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | cisco.dnac                               6.10.2 
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | cisco.intersight                         2.0.7  
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | cisco.ios                                5.3.0  
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | cisco.iosxr                              6.1.1  
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | cisco.ise                                2.7.0  
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | cisco.meraki                             2.17.2 
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | cisco.mso                                2.5.0  
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | cisco.nxos                               5.3.0  
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | cisco.ucs                                1.10.0 
+2026-02-21 21:28:30,433 p=9513 u=erick n=ansible | cloud.common                             2.1.4  
+2026-02-21 21:28:30,434 p=9513 u=erick n=ansible | cloudscale_ch.cloud                      2.3.1  
+2026-02-21 21:28:30,434 p=9513 u=erick n=ansible | community.aws                            7.1.0  
+2026-02-21 21:28:30,434 p=9513 u=erick n=ansible | community.azure                          2.0.0  
+2026-02-21 21:28:30,434 p=9513 u=erick n=ansible | community.ciscosmb                       1.0.7  
+2026-02-21 21:28:30,435 p=9513 u=erick n=ansible | community.crypto                         2.17.1 
+2026-02-21 21:28:30,435 p=9513 u=erick n=ansible | community.digitalocean                   1.26.0 
+2026-02-21 21:28:30,435 p=9513 u=erick n=ansible | community.dns                            2.8.0  
+2026-02-21 21:28:30,435 p=9513 u=erick n=ansible | community.docker                         3.7.0  
+2026-02-21 21:28:30,436 p=9513 u=erick n=ansible | community.general                        8.3.0  
+2026-02-21 21:28:30,436 p=9513 u=erick n=ansible | community.grafana                        1.7.0  
+2026-02-21 21:28:30,436 p=9513 u=erick n=ansible | community.hashi_vault                    6.1.0  
+2026-02-21 21:28:30,436 p=9513 u=erick n=ansible | community.hrobot                         1.9.0  
+2026-02-21 21:28:30,436 p=9513 u=erick n=ansible | community.library_inventory_filtering_v1 1.0.0  
+2026-02-21 21:28:30,436 p=9513 u=erick n=ansible | community.libvirt                        1.3.0  
+2026-02-21 21:28:30,436 p=9513 u=erick n=ansible | community.mongodb                        1.6.3  
+2026-02-21 21:28:30,436 p=9513 u=erick n=ansible | community.mysql                          3.8.0  
+2026-02-21 21:28:30,436 p=9513 u=erick n=ansible | community.network                        5.0.2  
+2026-02-21 21:28:30,436 p=9513 u=erick n=ansible | community.okd                            2.3.0  
+2026-02-21 21:28:30,437 p=9513 u=erick n=ansible | community.postgresql                     3.3.0  
+2026-02-21 21:28:30,437 p=9513 u=erick n=ansible | community.proxysql                       1.5.1  
+2026-02-21 21:28:30,437 p=9513 u=erick n=ansible | community.rabbitmq                       1.2.3  
+2026-02-21 21:28:30,437 p=9513 u=erick n=ansible | community.routeros                       2.12.0 
+2026-02-21 21:28:30,437 p=9513 u=erick n=ansible | community.sap                            2.0.0  
+2026-02-21 21:28:30,437 p=9513 u=erick n=ansible | community.sap_libs                       1.4.2  
+2026-02-21 21:28:30,437 p=9513 u=erick n=ansible | community.sops                           1.6.7  
+2026-02-21 21:28:30,437 p=9513 u=erick n=ansible | community.vmware                         4.1.0  
+2026-02-21 21:28:30,437 p=9513 u=erick n=ansible | community.windows                        2.1.0  
+2026-02-21 21:28:30,437 p=9513 u=erick n=ansible | community.zabbix                         2.3.1  
+2026-02-21 21:28:30,437 p=9513 u=erick n=ansible | containers.podman                        1.11.0 
+2026-02-21 21:28:30,437 p=9513 u=erick n=ansible | cyberark.conjur                          1.2.2  
+2026-02-21 21:28:30,437 p=9513 u=erick n=ansible | cyberark.pas                             1.0.25 
+2026-02-21 21:28:30,437 p=9513 u=erick n=ansible | dellemc.enterprise_sonic                 2.4.0  
+2026-02-21 21:28:30,438 p=9513 u=erick n=ansible | dellemc.openmanage                       8.7.0  
+2026-02-21 21:28:30,438 p=9513 u=erick n=ansible | dellemc.powerflex                        2.1.0  
+2026-02-21 21:28:30,438 p=9513 u=erick n=ansible | dellemc.unity                            1.7.1  
+2026-02-21 21:28:30,438 p=9513 u=erick n=ansible | f5networks.f5_modules                    1.27.1 
+2026-02-21 21:28:30,438 p=9513 u=erick n=ansible | fortinet.fortimanager                    2.3.1  
+2026-02-21 21:28:30,438 p=9513 u=erick n=ansible | fortinet.fortios                         2.3.4  
+2026-02-21 21:28:30,438 p=9513 u=erick n=ansible | frr.frr                                  2.0.2  
+2026-02-21 21:28:30,438 p=9513 u=erick n=ansible | gluster.gluster                          1.0.2  
+2026-02-21 21:28:30,438 p=9513 u=erick n=ansible | google.cloud                             1.3.0  
+2026-02-21 21:28:30,438 p=9513 u=erick n=ansible | grafana.grafana                          2.2.4  
+2026-02-21 21:28:30,438 p=9513 u=erick n=ansible | hetzner.hcloud                           2.4.1  
+2026-02-21 21:28:30,438 p=9513 u=erick n=ansible | hpe.nimble                               1.1.4  
+2026-02-21 21:28:30,438 p=9513 u=erick n=ansible | ibm.qradar                               2.1.0  
+2026-02-21 21:28:30,438 p=9513 u=erick n=ansible | ibm.spectrum_virtualize                  2.0.0  
+2026-02-21 21:28:30,438 p=9513 u=erick n=ansible | ibm.storage_virtualize                   2.2.0  
+2026-02-21 21:28:30,438 p=9513 u=erick n=ansible | infinidat.infinibox                      1.3.12 
+2026-02-21 21:28:30,439 p=9513 u=erick n=ansible | infoblox.nios_modules                    1.6.1  
+2026-02-21 21:28:30,439 p=9513 u=erick n=ansible | inspur.ispim                             2.2.0  
+2026-02-21 21:28:30,439 p=9513 u=erick n=ansible | inspur.sm                                2.3.0  
+2026-02-21 21:28:30,439 p=9513 u=erick n=ansible | junipernetworks.junos                    5.3.1  
+2026-02-21 21:28:30,439 p=9513 u=erick n=ansible | kubernetes.core                          2.4.0  
+2026-02-21 21:28:30,439 p=9513 u=erick n=ansible | lowlydba.sqlserver                       2.2.2  
+2026-02-21 21:28:30,439 p=9513 u=erick n=ansible | microsoft.ad                             1.4.1  
+2026-02-21 21:28:30,439 p=9513 u=erick n=ansible | netapp.aws                               21.7.1 
+2026-02-21 21:28:30,439 p=9513 u=erick n=ansible | netapp.azure                             21.10.1
+2026-02-21 21:28:30,439 p=9513 u=erick n=ansible | netapp.cloudmanager                      21.22.1
+2026-02-21 21:28:30,440 p=9513 u=erick n=ansible | netapp.elementsw                         21.7.0 
+2026-02-21 21:28:30,441 p=9513 u=erick n=ansible | netapp.ontap                             22.9.0 
+2026-02-21 21:28:30,441 p=9513 u=erick n=ansible | netapp.storagegrid                       21.11.1
+2026-02-21 21:28:30,441 p=9513 u=erick n=ansible | netapp.um_info                           21.8.1 
+2026-02-21 21:28:30,441 p=9513 u=erick n=ansible | netapp_eseries.santricity                1.4.0  
+2026-02-21 21:28:30,441 p=9513 u=erick n=ansible | netbox.netbox                            3.16.0 
+2026-02-21 21:28:30,441 p=9513 u=erick n=ansible | ngine_io.cloudstack                      2.3.0  
+2026-02-21 21:28:30,441 p=9513 u=erick n=ansible | ngine_io.exoscale                        1.1.0  
+2026-02-21 21:28:30,441 p=9513 u=erick n=ansible | openstack.cloud                          2.2.0  
+2026-02-21 21:28:30,442 p=9513 u=erick n=ansible | openvswitch.openvswitch                  2.1.1  
+2026-02-21 21:28:30,442 p=9513 u=erick n=ansible | ovirt.ovirt                              3.2.0  
+2026-02-21 21:28:30,442 p=9513 u=erick n=ansible | purestorage.flasharray                   1.26.0 
+2026-02-21 21:28:30,442 p=9513 u=erick n=ansible | purestorage.flashblade                   1.15.0 
+2026-02-21 21:28:30,442 p=9513 u=erick n=ansible | purestorage.fusion                       1.6.0  
+2026-02-21 21:28:30,442 p=9513 u=erick n=ansible | sensu.sensu_go                           1.14.0 
+2026-02-21 21:28:30,442 p=9513 u=erick n=ansible | splunk.es                                2.1.2  
+2026-02-21 21:28:30,442 p=9513 u=erick n=ansible | t_systems_mms.icinga_director            2.0.1  
+2026-02-21 21:28:30,442 p=9513 u=erick n=ansible | telekom_mms.icinga_director              1.35.0 
+2026-02-21 21:28:30,442 p=9513 u=erick n=ansible | theforeman.foreman                       3.15.0 
+2026-02-21 21:28:30,442 p=9513 u=erick n=ansible | vmware.vmware_rest                       2.3.1  
+2026-02-21 21:28:30,442 p=9513 u=erick n=ansible | vultr.cloud                              1.12.1 
+2026-02-21 21:28:30,442 p=9513 u=erick n=ansible | vyos.vyos                                4.1.0  
+2026-02-21 21:28:30,443 p=9513 u=erick n=ansible | wti.remote                               1.0.5  
+2026-02-21 21:28:40,209 p=9517 u=erick n=ansible | network_os is set to cisco.ios.ios
+2026-02-21 21:28:40,211 p=9517 u=erick n=ansible | [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2026-02-21 21:28:40,556 p=9517 u=erick n=ansible | csr1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2026-02-21 21:28:40,663 p=9527 u=erick n=ansible | shutdown complete
+2026-02-21 21:28:52,922 p=9549 u=erick n=ansible | {
+    "_meta": {
+        "hostvars": {
+            "csr1": {
+                "ansible_connection": "ansible.netcommon.network_cli",
+                "ansible_host": "192.168.1.100",
+                "ansible_network_os": "cisco.ios.ios",
+                "ansible_password": "admin",
+                "ansible_user": "admin"
+            }
+        }
+    },
+    "all": {
+        "children": [
+            "ungrouped",
+            "csr_routers"
+        ]
+    },
+    "csr_routers": {
+        "hosts": [
+            "csr1"
+        ]
+    }
+}
+2026-02-21 21:29:03,690 p=9554 u=erick n=ansible | ERROR! the playbook: playbooks/backup_csr.yml could not be found
+2026-02-21 21:30:43,088 p=9568 u=erick n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/home/erick/labs/devnet-src/ansible/playbooks/backup_csr.yml': line 2, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+yaml
+---
+^ here
+
+2026-02-21 21:33:05,544 p=9761 u=erick n=ansible | Using /home/erick/labs/devnet-src/ansible/ansible.cfg as config file
+2026-02-21 21:33:05,989 p=9761 u=erick n=ansible | PLAY [BACKUP CSR - DEVASC EXAM] ***********************************************************************************************************************************
+2026-02-21 21:33:06,000 p=9761 u=erick n=ansible | TASK [1️⃣ Verificar conexión] ***************************************************************************************************************************************
+2026-02-21 21:33:06,451 p=9761 u=erick n=ansible | ok: [csr1 -> localhost] => changed=false 
+  elapsed: 0
+  match_groupdict: {}
+  match_groups: []
+  path: null
+  port: 22
+  search_regex: null
+  state: started
+2026-02-21 21:33:06,455 p=9761 u=erick n=ansible | TASK [2️⃣ Obtener hostname] *****************************************************************************************************************************************
+2026-02-21 21:33:07,240 p=9761 u=erick n=ansible | network_os is set to cisco.ios.ios
+2026-02-21 21:33:07,241 p=9761 u=erick n=ansible | [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2026-02-21 21:33:07,255 p=9761 u=erick n=ansible | fatal: [csr1]: FAILED! => changed=false 
+  msg: 'paramiko is not installed: No module named ''paramiko'''
+2026-02-21 21:33:07,257 p=9761 u=erick n=ansible | PLAY RECAP ********************************************************************************************************************************************************
+2026-02-21 21:33:07,258 p=9761 u=erick n=ansible | csr1                       : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-21 21:33:07,357 p=9796 u=erick n=ansible | shutdown complete
+2026-02-21 21:34:14,467 p=10331 u=erick n=ansible | PLAY [BACKUP CSR - DEVASC EXAM] ***********************************************************************************************************************************
+2026-02-21 21:34:14,475 p=10331 u=erick n=ansible | TASK [1️⃣ Verificar conexión] ***************************************************************************************************************************************
+2026-02-21 21:34:14,881 p=10331 u=erick n=ansible | ok: [csr1 -> localhost]
+2026-02-21 21:34:14,883 p=10331 u=erick n=ansible | TASK [2️⃣ Obtener hostname] *****************************************************************************************************************************************
+2026-02-21 21:34:15,631 p=10331 u=erick n=ansible | network_os is set to cisco.ios.ios
+2026-02-21 21:34:15,632 p=10331 u=erick n=ansible | [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2026-02-21 21:34:15,649 p=10366 u=erick n=p=10366 u=erick | paramiko [192.168.1.100] | Connected (version 1.99, client Cisco-1.25)
+2026-02-21 21:34:16,079 p=10366 u=erick n=p=10366 u=erick | paramiko [192.168.1.100] | Authentication (password) successful!
+2026-02-21 21:34:17,108 p=10331 u=erick n=ansible | ok: [csr1]
+2026-02-21 21:34:17,111 p=10331 u=erick n=ansible | TASK [3️⃣ Mostrar hostname] *****************************************************************************************************************************************
+2026-02-21 21:34:17,176 p=10331 u=erick n=ansible | ok: [csr1] => 
+  msg: Conectado a hostname CSR1kv
+2026-02-21 21:34:17,178 p=10331 u=erick n=ansible | TASK [4️⃣ Guardar configuración] ************************************************************************************************************************************
+2026-02-21 21:34:18,074 p=10331 u=erick n=ansible | changed: [csr1]
+2026-02-21 21:34:18,079 p=10331 u=erick n=ansible | TASK [5️⃣ Verificar backup] *****************************************************************************************************************************************
+2026-02-21 21:34:18,491 p=10331 u=erick n=ansible | ok: [csr1 -> localhost]
+2026-02-21 21:34:18,495 p=10331 u=erick n=ansible | TASK [6️⃣ Resultado final] ******************************************************************************************************************************************
+2026-02-21 21:34:18,524 p=10331 u=erick n=ansible | fatal: [csr1]: FAILED! => 
+  msg: |-
+    The task includes an option with an undefined variable. The error was: 'dict object' has no attribute 'size'. 'dict object' has no attribute 'size'
+  
+    The error appears to be in '/home/erick/labs/devnet-src/ansible/playbooks/backup_csr.yml': line 42, column 7, but may
+    be elsewhere in the file depending on the exact syntax problem.
+  
+    The offending line appears to be:
+  
+  
+        - name: 6️⃣ Resultado final
+          ^ here
+2026-02-21 21:34:18,527 p=10331 u=erick n=ansible | PLAY RECAP ********************************************************************************************************************************************************
+2026-02-21 21:34:18,527 p=10331 u=erick n=ansible | csr1                       : ok=5    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-21 21:34:18,627 p=10366 u=erick n=ansible | shutdown complete
+2026-02-21 21:35:25,436 p=10498 u=erick n=ansible | PLAY [BACKUP CSR - DEVASC EXAM] ***********************************************************************************************************************************
+2026-02-21 21:35:25,447 p=10498 u=erick n=ansible | TASK [1️⃣ Verificar conexión] ***************************************************************************************************************************************
+2026-02-21 21:35:25,838 p=10498 u=erick n=ansible | ok: [csr1 -> localhost]
+2026-02-21 21:35:25,840 p=10498 u=erick n=ansible | TASK [2️⃣ Obtener hostname] *****************************************************************************************************************************************
+2026-02-21 21:35:26,671 p=10498 u=erick n=ansible | network_os is set to cisco.ios.ios
+2026-02-21 21:35:26,672 p=10498 u=erick n=ansible | [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2026-02-21 21:35:26,685 p=10534 u=erick n=p=10534 u=erick | paramiko [192.168.1.100] | Connected (version 1.99, client Cisco-1.25)
+2026-02-21 21:35:27,116 p=10534 u=erick n=p=10534 u=erick | paramiko [192.168.1.100] | Authentication (password) successful!
+2026-02-21 21:35:27,982 p=10498 u=erick n=ansible | ok: [csr1]
+2026-02-21 21:35:27,987 p=10498 u=erick n=ansible | TASK [3️⃣ Mostrar hostname] *****************************************************************************************************************************************
+2026-02-21 21:35:28,053 p=10498 u=erick n=ansible | ok: [csr1] => 
+  msg: Conectado a hostname CSR1kv
+2026-02-21 21:35:28,056 p=10498 u=erick n=ansible | TASK [4️⃣ Guardar configuración] ************************************************************************************************************************************
+2026-02-21 21:35:29,002 p=10498 u=erick n=ansible | changed: [csr1]
+2026-02-21 21:35:29,011 p=10498 u=erick n=ansible | TASK [5️⃣ Verificar backup] *****************************************************************************************************************************************
+2026-02-21 21:35:29,423 p=10498 u=erick n=ansible | ok: [csr1 -> localhost]
+2026-02-21 21:35:29,426 p=10498 u=erick n=ansible | TASK [6️⃣ Resultado final] ******************************************************************************************************************************************
+2026-02-21 21:35:29,455 p=10498 u=erick n=ansible | fatal: [csr1]: FAILED! => 
+  msg: |-
+    The task includes an option with an undefined variable. The error was: 'dict object' has no attribute 'size'. 'dict object' has no attribute 'size'
+  
+    The error appears to be in '/home/erick/labs/devnet-src/ansible/playbooks/backup_csr.yml': line 42, column 7, but may
+    be elsewhere in the file depending on the exact syntax problem.
+  
+    The offending line appears to be:
+  
+  
+        - name: 6️⃣ Resultado final
+          ^ here
+2026-02-21 21:35:29,457 p=10498 u=erick n=ansible | PLAY RECAP ********************************************************************************************************************************************************
+2026-02-21 21:35:29,457 p=10498 u=erick n=ansible | csr1                       : ok=5    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-21 21:35:29,558 p=10534 u=erick n=ansible | shutdown complete
+2026-02-21 21:37:16,951 p=10578 u=erick n=ansible | network_os is set to cisco.ios.ios
+2026-02-21 21:37:16,954 p=10578 u=erick n=ansible | [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2026-02-21 21:37:17,303 p=10578 u=erick n=ansible | csr1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2026-02-21 21:37:17,411 p=10588 u=erick n=ansible | shutdown complete
+2026-02-21 21:37:27,284 p=10610 u=erick n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/home/erick/labs/devnet-src/ansible/playbooks/backup_csr.yml': line 2, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+yaml
+---
+^ here
+
+2026-02-21 21:38:57,811 p=10641 u=erick n=ansible | playbook: playbooks/backup_csr.yml
+2026-02-21 21:39:06,357 p=10645 u=erick n=ansible | PLAY [BACKUP CSR - DEVASC EXAM] ***********************************************************************************************************************************
+2026-02-21 21:39:06,368 p=10645 u=erick n=ansible | TASK [1️⃣ Verificar conexión al router] *****************************************************************************************************************************
+2026-02-21 21:39:06,788 p=10645 u=erick n=ansible | ok: [csr1 -> localhost]
+2026-02-21 21:39:06,791 p=10645 u=erick n=ansible | TASK [2️⃣ Mostrar información de conexión] **************************************************************************************************************************
+2026-02-21 21:39:06,857 p=10645 u=erick n=ansible | ok: [csr1] => 
+  msg: ✅ Conectando a csr1 (192.168.1.100)
+2026-02-21 21:39:06,860 p=10645 u=erick n=ansible | TASK [3️⃣ Obtener hostname del router] ******************************************************************************************************************************
+2026-02-21 21:39:07,642 p=10645 u=erick n=ansible | network_os is set to cisco.ios.ios
+2026-02-21 21:39:07,643 p=10645 u=erick n=ansible | [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2026-02-21 21:39:07,658 p=10681 u=erick n=p=10681 u=erick | paramiko [192.168.1.100] | Connected (version 1.99, client Cisco-1.25)
+2026-02-21 21:39:08,095 p=10681 u=erick n=p=10681 u=erick | paramiko [192.168.1.100] | Authentication (password) successful!
+2026-02-21 21:39:08,991 p=10645 u=erick n=ansible | ok: [csr1]
+2026-02-21 21:39:08,999 p=10645 u=erick n=ansible | TASK [4️⃣ Extraer hostname] *****************************************************************************************************************************************
+2026-02-21 21:39:09,106 p=10645 u=erick n=ansible | ok: [csr1]
+2026-02-21 21:39:09,109 p=10645 u=erick n=ansible | TASK [5️⃣ Mostrar hostname] *****************************************************************************************************************************************
+2026-02-21 21:39:09,174 p=10645 u=erick n=ansible | ok: [csr1] => 
+  msg: "\U0001F4DB Router: CSR1kv"
+2026-02-21 21:39:09,177 p=10645 u=erick n=ansible | TASK [6️⃣ Crear directorio de backups local] ************************************************************************************************************************
+2026-02-21 21:39:09,588 p=10645 u=erick n=ansible | changed: [csr1 -> localhost]
+2026-02-21 21:39:09,590 p=10645 u=erick n=ansible | TASK [7️⃣ Guardar configuración del router] *************************************************************************************************************************
+2026-02-21 21:39:10,518 p=10645 u=erick n=ansible | changed: [csr1]
+2026-02-21 21:39:10,524 p=10645 u=erick n=ansible | TASK [8️⃣ Verificar que el backup se creó] **************************************************************************************************************************
+2026-02-21 21:39:10,929 p=10645 u=erick n=ansible | ok: [csr1 -> localhost]
+2026-02-21 21:39:10,932 p=10645 u=erick n=ansible | TASK [9️⃣ Mostrar resultado del backup] *****************************************************************************************************************************
+2026-02-21 21:39:10,964 p=10645 u=erick n=ansible | fatal: [csr1]: FAILED! => 
+  msg: |-
+    The task includes an option with an undefined variable. The error was: 'dict object' has no attribute 'size'. 'dict object' has no attribute 'size'
+  
+    The error appears to be in '/home/erick/labs/devnet-src/ansible/playbooks/backup_csr.yml': line 59, column 7, but may
+    be elsewhere in the file depending on the exact syntax problem.
+  
+    The offending line appears to be:
+  
+  
+        - name: 9️⃣ Mostrar resultado del backup
+          ^ here
+2026-02-21 21:39:10,967 p=10645 u=erick n=ansible | PLAY RECAP ********************************************************************************************************************************************************
+2026-02-21 21:39:10,968 p=10645 u=erick n=ansible | csr1                       : ok=8    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-21 21:39:11,067 p=10681 u=erick n=ansible | shutdown complete
+2026-02-21 21:40:25,127 p=10755 u=erick n=ansible | ansible-playbook [core 2.16.3]
+  config file = /home/erick/labs/devnet-src/ansible/ansible.cfg
+  configured module search path = ['/home/erick/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  ansible collection location = /home/erick/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/bin/ansible-playbook
+  python version = 3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0] (/usr/bin/python3)
+  jinja version = 3.1.2
+  libyaml = True
+2026-02-21 21:40:25,128 p=10755 u=erick n=ansible | Using /home/erick/labs/devnet-src/ansible/ansible.cfg as config file
+2026-02-21 21:40:25,301 p=10755 u=erick n=ansible | host_list declined parsing /home/erick/labs/devnet-src/ansible/inventory/hosts.ini as it did not pass its verify_file() method
+2026-02-21 21:40:25,302 p=10755 u=erick n=ansible | script declined parsing /home/erick/labs/devnet-src/ansible/inventory/hosts.ini as it did not pass its verify_file() method
+2026-02-21 21:40:25,302 p=10755 u=erick n=ansible | auto declined parsing /home/erick/labs/devnet-src/ansible/inventory/hosts.ini as it did not pass its verify_file() method
+2026-02-21 21:40:25,302 p=10755 u=erick n=ansible | yaml declined parsing /home/erick/labs/devnet-src/ansible/inventory/hosts.ini as it did not pass its verify_file() method
+2026-02-21 21:40:25,304 p=10755 u=erick n=ansible | Parsed /home/erick/labs/devnet-src/ansible/inventory/hosts.ini inventory source with ini plugin
+2026-02-21 21:40:25,488 p=10755 u=erick n=ansible | redirecting (type: callback) ansible.builtin.yaml to community.general.yaml
+2026-02-21 21:40:25,532 p=10755 u=erick n=ansible | redirecting (type: callback) ansible.builtin.yaml to community.general.yaml
+2026-02-21 21:40:25,549 p=10755 u=erick n=ansible | Skipping callback 'default', as we already have a stdout callback.
+2026-02-21 21:40:25,549 p=10755 u=erick n=ansible | Skipping callback 'minimal', as we already have a stdout callback.
+2026-02-21 21:40:25,550 p=10755 u=erick n=ansible | Skipping callback 'oneline', as we already have a stdout callback.
+2026-02-21 21:40:25,550 p=10755 u=erick n=ansible | PLAYBOOK: backup_csr.yml ******************************************************************************************************************************************
+2026-02-21 21:40:25,550 p=10755 u=erick n=ansible | 1 plays in playbooks/backup_csr.yml
+2026-02-21 21:40:25,553 p=10755 u=erick n=ansible | PLAY [BACKUP CSR - DEVASC EXAM] ***********************************************************************************************************************************
+2026-02-21 21:40:25,562 p=10755 u=erick n=ansible | TASK [1️⃣ Verificar conexión al router] *****************************************************************************************************************************
+2026-02-21 21:40:25,585 p=10755 u=erick n=ansible | <localhost> ESTABLISH LOCAL CONNECTION FOR USER: erick
+2026-02-21 21:40:25,586 p=10755 u=erick n=ansible | <localhost> EXEC /bin/sh -c 'echo ~erick && sleep 0'
+2026-02-21 21:40:25,590 p=10755 u=erick n=ansible | <localhost> EXEC /bin/sh -c '( umask 77 && mkdir -p "` echo /home/erick/.ansible/tmp `"&& mkdir "` echo /home/erick/.ansible/tmp/ansible-tmp-1771706425.589711-10759-160683270291023 `" && echo ansible-tmp-1771706425.589711-10759-160683270291023="` echo /home/erick/.ansible/tmp/ansible-tmp-1771706425.589711-10759-160683270291023 `" ) && sleep 0'
+2026-02-21 21:40:25,728 p=10755 u=erick n=ansible | Using module file /usr/lib/python3/dist-packages/ansible/modules/wait_for.py
+2026-02-21 21:40:25,729 p=10755 u=erick n=ansible | <localhost> PUT /home/erick/.ansible/tmp/ansible-local-10755l_pk00rh/tmp9nvzrb8y TO /home/erick/.ansible/tmp/ansible-tmp-1771706425.589711-10759-160683270291023/AnsiballZ_wait_for.py
+2026-02-21 21:40:25,729 p=10755 u=erick n=ansible | <localhost> EXEC /bin/sh -c 'chmod u+x /home/erick/.ansible/tmp/ansible-tmp-1771706425.589711-10759-160683270291023/ /home/erick/.ansible/tmp/ansible-tmp-1771706425.589711-10759-160683270291023/AnsiballZ_wait_for.py && sleep 0'
+2026-02-21 21:40:25,736 p=10755 u=erick n=ansible | <localhost> EXEC /bin/sh -c '/usr/bin/python3 /home/erick/.ansible/tmp/ansible-tmp-1771706425.589711-10759-160683270291023/AnsiballZ_wait_for.py && sleep 0'
+2026-02-21 21:40:25,961 p=10755 u=erick n=ansible | <localhost> EXEC /bin/sh -c 'rm -f -r /home/erick/.ansible/tmp/ansible-tmp-1771706425.589711-10759-160683270291023/ > /dev/null 2>&1 && sleep 0'
+2026-02-21 21:40:25,970 p=10755 u=erick n=ansible | ok: [csr1 -> localhost] => changed=false 
+  elapsed: 0
+  invocation:
+    module_args:
+      active_connection_states:
+      - ESTABLISHED
+      - FIN_WAIT1
+      - FIN_WAIT2
+      - SYN_RECV
+      - SYN_SENT
+      - TIME_WAIT
+      connect_timeout: 5
+      delay: 0
+      exclude_hosts: null
+      host: 192.168.1.100
+      msg: null
+      path: null
+      port: 22
+      search_regex: null
+      sleep: 1
+      state: started
+      timeout: 5
+  match_groupdict: {}
+  match_groups: []
+  path: null
+  port: 22
+  search_regex: null
+  state: started
+2026-02-21 21:40:25,973 p=10755 u=erick n=ansible | TASK [2️⃣ Mostrar información de conexión] **************************************************************************************************************************
+2026-02-21 21:40:26,041 p=10755 u=erick n=ansible | ok: [csr1] => 
+  msg: ✅ Conectando a csr1 (192.168.1.100)
+2026-02-21 21:40:26,044 p=10755 u=erick n=ansible | TASK [3️⃣ Obtener hostname del router] ******************************************************************************************************************************
+2026-02-21 21:40:26,779 p=10755 u=erick n=ansible | network_os is set to cisco.ios.ios
+2026-02-21 21:40:26,780 p=10755 u=erick n=ansible | [WARNING]: ansible-pylibssh not installed, falling back to paramiko
+
+2026-02-21 21:40:26,788 p=10791 u=erick n=ansible | <192.168.1.100> ESTABLISH PARAMIKO SSH CONNECTION FOR USER: admin on PORT 22 TO 192.168.1.100
+2026-02-21 21:40:26,793 p=10791 u=erick n=p=10791 u=erick | paramiko [192.168.1.100] | Connected (version 1.99, client Cisco-1.25)
+2026-02-21 21:40:27,224 p=10791 u=erick n=p=10791 u=erick | paramiko [192.168.1.100] | Authentication (password) successful!
+2026-02-21 21:40:28,107 p=10755 u=erick n=ansible | ok: [csr1] => changed=false 
+  invocation:
+    module_args:
+      commands:
+      - show run | include hostname
+      interval: 1
+      match: all
+      retries: 9
+      wait_for: null
+  stdout:
+  - hostname CSR1kv
+  stdout_lines: <omitted>
+2026-02-21 21:40:28,114 p=10755 u=erick n=ansible | TASK [4️⃣ Mostrar salida del comando] *******************************************************************************************************************************
+2026-02-21 21:40:28,182 p=10755 u=erick n=ansible | ok: [csr1] => 
+  hostname_output:
+    changed: false
+    failed: false
+    stdout:
+    - hostname CSR1kv
+    stdout_lines:
+    - - hostname CSR1kv
+2026-02-21 21:40:28,186 p=10755 u=erick n=ansible | TASK [5️⃣ Extraer hostname] *****************************************************************************************************************************************
+2026-02-21 21:40:28,276 p=10755 u=erick n=ansible | ok: [csr1] => changed=false 
+  ansible_facts:
+    router_hostname: CSR1kv
+2026-02-21 21:40:28,278 p=10755 u=erick n=ansible | TASK [6️⃣ Mostrar hostname extraído] ********************************************************************************************************************************
+2026-02-21 21:40:28,344 p=10755 u=erick n=ansible | ok: [csr1] => 
+  msg: "\U0001F4DB Router: CSR1kv"
+2026-02-21 21:40:28,347 p=10755 u=erick n=ansible | TASK [7️⃣ Crear directorio de backups local] ************************************************************************************************************************
+2026-02-21 21:40:28,369 p=10755 u=erick n=ansible | <localhost> ESTABLISH LOCAL CONNECTION FOR USER: erick
+2026-02-21 21:40:28,369 p=10755 u=erick n=ansible | <localhost> EXEC /bin/sh -c 'echo ~erick && sleep 0'
+2026-02-21 21:40:28,373 p=10755 u=erick n=ansible | <localhost> EXEC /bin/sh -c '( umask 77 && mkdir -p "` echo /home/erick/.ansible/tmp `"&& mkdir "` echo /home/erick/.ansible/tmp/ansible-tmp-1771706428.3729036-10797-52731885031681 `" && echo ansible-tmp-1771706428.3729036-10797-52731885031681="` echo /home/erick/.ansible/tmp/ansible-tmp-1771706428.3729036-10797-52731885031681 `" ) && sleep 0'
+2026-02-21 21:40:28,508 p=10755 u=erick n=ansible | Using module file /usr/lib/python3/dist-packages/ansible/modules/file.py
+2026-02-21 21:40:28,509 p=10755 u=erick n=ansible | <localhost> PUT /home/erick/.ansible/tmp/ansible-local-10755l_pk00rh/tmp299g0p0w TO /home/erick/.ansible/tmp/ansible-tmp-1771706428.3729036-10797-52731885031681/AnsiballZ_file.py
+2026-02-21 21:40:28,510 p=10755 u=erick n=ansible | <localhost> EXEC /bin/sh -c 'chmod u+x /home/erick/.ansible/tmp/ansible-tmp-1771706428.3729036-10797-52731885031681/ /home/erick/.ansible/tmp/ansible-tmp-1771706428.3729036-10797-52731885031681/AnsiballZ_file.py && sleep 0'
+2026-02-21 21:40:28,514 p=10755 u=erick n=ansible | <localhost> EXEC /bin/sh -c '/usr/bin/python3 /home/erick/.ansible/tmp/ansible-tmp-1771706428.3729036-10797-52731885031681/AnsiballZ_file.py && sleep 0'
+2026-02-21 21:40:28,749 p=10755 u=erick n=ansible | <localhost> EXEC /bin/sh -c 'rm -f -r /home/erick/.ansible/tmp/ansible-tmp-1771706428.3729036-10797-52731885031681/ > /dev/null 2>&1 && sleep 0'
+2026-02-21 21:40:28,760 p=10755 u=erick n=ansible | ok: [csr1 -> localhost] => changed=false 
+  diff:
+    after:
+      path: ./backups/CSR1kv
+    before:
+      path: ./backups/CSR1kv
+  gid: 1000
+  group: erick
+  invocation:
+    module_args:
+      _diff_peek: null
+      _original_basename: null
+      access_time: null
+      access_time_format: '%Y%m%d%H%M.%S'
+      attributes: null
+      follow: true
+      force: false
+      group: null
+      mode: '0755'
+      modification_time: null
+      modification_time_format: '%Y%m%d%H%M.%S'
+      owner: null
+      path: ./backups/CSR1kv
+      recurse: false
+      selevel: null
+      serole: null
+      setype: null
+      seuser: null
+      src: null
+      state: directory
+      unsafe_writes: false
+  mode: '0755'
+  owner: erick
+  path: ./backups/CSR1kv
+  size: 4096
+  state: directory
+  uid: 1000
+2026-02-21 21:40:28,763 p=10755 u=erick n=ansible | TASK [8️⃣ Guardar configuración del router] *************************************************************************************************************************
+2026-02-21 21:40:29,634 p=10755 u=erick n=ansible | changed: [csr1] => changed=true 
+  backup_path: ./backups/CSR1kv/CSR1kv_20260221_214028.cfg
+  date: '2026-02-21'
+  invocation:
+    module_args:
+      after: null
+      backup: true
+      backup_options:
+        dir_path: ./backups/CSR1kv/
+        filename: CSR1kv_20260221_214028.cfg
+      before: null
+      defaults: false
+      diff_against: null
+      diff_ignore_lines: null
+      intended_config: null
+      lines: null
+      match: line
+      multiline_delimiter: '@'
+      parents: null
+      replace: line
+      running_config: null
+      save_when: never
+      src: null
+  time: '21:40:29'
+2026-02-21 21:40:29,638 p=10755 u=erick n=ansible | TASK [9️⃣ Mostrar resultado del backup] *****************************************************************************************************************************
+2026-02-21 21:40:29,704 p=10755 u=erick n=ansible | ok: [csr1] => 
+  backup_result:
+    backup_path: ./backups/CSR1kv/CSR1kv_20260221_214028.cfg
+    changed: true
+    date: '2026-02-21'
+    failed: false
+    time: '21:40:29'
+2026-02-21 21:40:29,706 p=10755 u=erick n=ansible | TASK [🔟 Verificar que el backup se creó] *************************************************************************************************************************
+2026-02-21 21:40:29,735 p=10755 u=erick n=ansible | <localhost> ESTABLISH LOCAL CONNECTION FOR USER: erick
+2026-02-21 21:40:29,735 p=10755 u=erick n=ansible | <localhost> EXEC /bin/sh -c 'echo ~erick && sleep 0'
+2026-02-21 21:40:29,740 p=10755 u=erick n=ansible | <localhost> EXEC /bin/sh -c '( umask 77 && mkdir -p "` echo /home/erick/.ansible/tmp `"&& mkdir "` echo /home/erick/.ansible/tmp/ansible-tmp-1771706429.7401695-10829-222383565963666 `" && echo ansible-tmp-1771706429.7401695-10829-222383565963666="` echo /home/erick/.ansible/tmp/ansible-tmp-1771706429.7401695-10829-222383565963666 `" ) && sleep 0'
+2026-02-21 21:40:29,870 p=10755 u=erick n=ansible | Using module file /usr/lib/python3/dist-packages/ansible/modules/stat.py
+2026-02-21 21:40:29,870 p=10755 u=erick n=ansible | <localhost> PUT /home/erick/.ansible/tmp/ansible-local-10755l_pk00rh/tmpucatzzz2 TO /home/erick/.ansible/tmp/ansible-tmp-1771706429.7401695-10829-222383565963666/AnsiballZ_stat.py
+2026-02-21 21:40:29,871 p=10755 u=erick n=ansible | <localhost> EXEC /bin/sh -c 'chmod u+x /home/erick/.ansible/tmp/ansible-tmp-1771706429.7401695-10829-222383565963666/ /home/erick/.ansible/tmp/ansible-tmp-1771706429.7401695-10829-222383565963666/AnsiballZ_stat.py && sleep 0'
+2026-02-21 21:40:29,876 p=10755 u=erick n=ansible | <localhost> EXEC /bin/sh -c '/usr/bin/python3 /home/erick/.ansible/tmp/ansible-tmp-1771706429.7401695-10829-222383565963666/AnsiballZ_stat.py && sleep 0'
+2026-02-21 21:40:30,106 p=10755 u=erick n=ansible | <localhost> EXEC /bin/sh -c 'rm -f -r /home/erick/.ansible/tmp/ansible-tmp-1771706429.7401695-10829-222383565963666/ > /dev/null 2>&1 && sleep 0'
+2026-02-21 21:40:30,114 p=10755 u=erick n=ansible | ok: [csr1 -> localhost] => changed=false 
+  invocation:
+    module_args:
+      checksum_algorithm: sha1
+      follow: false
+      get_attributes: true
+      get_checksum: true
+      get_mime: true
+      path: ./backups/CSR1kv/CSR1kv_20260221_214029.cfg
+  stat:
+    exists: false
+2026-02-21 21:40:30,117 p=10755 u=erick n=ansible | TASK [1️⃣1️⃣ Mostrar información del archivo] *************************************************************************************************************************
+2026-02-21 21:40:30,184 p=10755 u=erick n=ansible | ok: [csr1] => 
+  backup_file:
+    changed: false
+    failed: false
+    stat:
+      exists: false
+2026-02-21 21:40:30,187 p=10755 u=erick n=ansible | TASK [1️⃣2️⃣ Verificar si el archivo existe] **************************************************************************************************************************
+2026-02-21 21:40:30,266 p=10755 u=erick n=ansible | ok: [csr1] => 
+  msg:
+  - ¿Archivo existe? False
+  - 'Ruta: ./backups/CSR1kv/CSR1kv_20260221_214030.cfg'
+2026-02-21 21:40:30,269 p=10755 u=erick n=ansible | TASK [1️⃣3️⃣ Subir backup al servidor FTP] ****************************************************************************************************************************
+2026-02-21 21:40:30,298 p=10755 u=erick n=ansible | skipping: [csr1] => changed=false 
+  false_condition: backup_file.stat is defined and backup_file.stat.exists
+  skip_reason: Conditional result was False
+2026-02-21 21:40:30,301 p=10755 u=erick n=ansible | TASK [1️⃣4️⃣ Verificar subida FTP] ************************************************************************************************************************************
+2026-02-21 21:40:30,371 p=10755 u=erick n=ansible | ok: [csr1] => 
+  msg: '✅ Backup subido al servidor FTP: 192.168.35.2'
+2026-02-21 21:40:30,374 p=10755 u=erick n=ansible | TASK [1️⃣5️⃣ Crear enlace simbólico 'latest'] *************************************************************************************************************************
+2026-02-21 21:40:30,398 p=10755 u=erick n=ansible | skipping: [csr1] => changed=false 
+  false_condition: backup_file.stat is defined and backup_file.stat.exists
+  skip_reason: Conditional result was False
+2026-02-21 21:40:30,400 p=10755 u=erick n=ansible | TASK [1️⃣6️⃣ Resumen final] *******************************************************************************************************************************************
+2026-02-21 21:40:30,481 p=10755 u=erick n=ansible | ok: [csr1] => 
+  msg:
+  - ═══════════════════════════════════════════════
+  - ✅ BACKUP COMPLETADO
+  - ═══════════════════════════════════════════════
+  - "\U0001F4CD Router: CSR1kv"
+  - "\U0001F4C1 Backup local: ./backups/CSR1kv/CSR1kv_20260221_214030.cfg"
+  - "\U0001F4E6 Tamaño: N/A bytes"
+  - ═══════════════════════════════════════════════
+2026-02-21 21:40:30,487 p=10755 u=erick n=ansible | PLAY RECAP ********************************************************************************************************************************************************
+2026-02-21 21:40:30,488 p=10755 u=erick n=ansible | csr1                       : ok=14   changed=1    unreachable=0    failed=0    skipped=2    rescued=0    ignored=0   
+2026-02-21 21:40:30,589 p=10791 u=erick n=ansible | shutdown complete
