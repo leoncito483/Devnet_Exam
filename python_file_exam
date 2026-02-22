@@ -1,1 +1,58 @@
 
+python
+#!/usr/bin/env python3
+
+import requests
+import urllib3
+from requests.auth import HTTPBasicAuth
+from dnacentersdk import DNACenterAPI
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+# DNA Center
+DNAC_HOST = "sandboxdnac.cisco.com"
+DNAC_USER = "devnetuser"
+DNAC_PASS = "Cisco123!"
+
+# CSR Router
+CSR_HOST = "192.168.10.10"
+CSR_USER = "admin"
+CSR_PASS = "admin"
+
+print("Conectando a DNA Center...")
+dnac = DNACenterAPI(
+    username=DNAC_USER,
+    password=DNAC_PASS,
+    base_url=f"https://{DNAC_HOST}",
+    version="2.3.5.3",
+    verify=False
+)
+
+print("Obteniendo dispositivos...")
+devices = dnac.devices.get_device_list()
+first_device = devices.response[0]
+new_hostname = first_device.hostname
+print(f"Primer dispositivo: {new_hostname}")
+
+print(f"Configurando CSR con hostname: {new_hostname}")
+url = f"https://{CSR_HOST}:443/restconf/data/Cisco-IOS-XE-native:native/hostname"
+headers = {
+    "Content-Type": "application/yang-data+json",
+    "Accept": "application/yang-data+json"
+}
+payload = {"Cisco-IOS-XE-native:hostname": new_hostname}
+
+response = requests.put(
+    url,
+    headers=headers,
+    auth=HTTPBasicAuth(CSR_USER, CSR_PASS),
+    json=payload,
+    verify=False,
+    timeout=10
+)
+
+if response.status_code in [200, 201, 204]:
+    print(f"✅ Hostname cambiado a: {new_hostname}")
+else:
+    print(f"❌ Error: {response.status_code}")
+    print(response.text)
