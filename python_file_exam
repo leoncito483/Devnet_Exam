@@ -1,5 +1,3 @@
-
-python
 #!/usr/bin/env python3
 
 import requests
@@ -10,12 +8,13 @@ from dnacentersdk import DNACenterAPI
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # DNA Center
-DNAC_HOST = "sandboxdnac.cisco.com"
+DNAC_HOST = "sandboxdnac2.cisco.com"
 DNAC_USER = "devnetuser"
 DNAC_PASS = "Cisco123!"
+DNAC_VERSION = "2.3.5.3"
 
 # CSR Router
-CSR_HOST = "192.168.10.10"
+CSR_HOST = "192.168.1.100"
 CSR_USER = "admin"
 CSR_PASS = "admin"
 
@@ -24,18 +23,27 @@ dnac = DNACenterAPI(
     username=DNAC_USER,
     password=DNAC_PASS,
     base_url=f"https://{DNAC_HOST}",
-    version="2.3.5.3",
+    version=DNAC_VERSION,
     verify=False
 )
+print("✓ Conectado")
 
 print("Obteniendo dispositivos...")
 devices = dnac.devices.get_device_list()
-first_device = devices.response[0]
-new_hostname = first_device.hostname
-print(f"Primer dispositivo: {new_hostname}")
+
+# Verificar si hay dispositivos
+if devices.response and len(devices.response) > 0:
+    first_device = devices.response[0]
+    new_hostname = first_device.hostname
+    print(f"Dispositivo encontrado: {new_hostname}")
+else:
+    print("⚠️ No hay dispositivos en el sandbox. Usando hostname por defecto.")
+    new_hostname = "CSR-DEVNET-DEFAULT"
 
 print(f"Configurando CSR con hostname: {new_hostname}")
-url = f"https://{CSR_HOST}:443/restconf/data/Cisco-IOS-XE-native:native/hostname"
+
+# RESTCONF
+url = f"https://{CSR_HOST}/restconf/data/Cisco-IOS-XE-native:native/hostname"
 headers = {
     "Content-Type": "application/yang-data+json",
     "Accept": "application/yang-data+json"
@@ -52,7 +60,7 @@ response = requests.put(
 )
 
 if response.status_code in [200, 201, 204]:
-    print(f"✅ Hostname cambiado a: {new_hostname}")
+    print(f"✅ CSR actualizado a: {new_hostname}")
 else:
-    print(f"❌ Error: {response.status_code}")
+    print(f"❌ Error {response.status_code}")
     print(response.text)
